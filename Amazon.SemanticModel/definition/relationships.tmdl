@@ -1,0 +1,5 @@
+relationship ef4eea0d-7854-4986-bb23-70ef6fe51ff1
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Orders.'Order Date'
+	toColumn: LocalDateTable_6dbd3069-f8e4-4032-b4fe-7630c84e5c8d.Date
+

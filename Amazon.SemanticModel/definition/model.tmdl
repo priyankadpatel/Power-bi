@@ -1,0 +1,23 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["GDP (millions of current international dollar) by country or  territory","Orders"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.144.1155.0 (25.06)+46435b07013d2a234d7fd007083a9e70b8e79f1c
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'GDP (millions of current international dollar) by country or  territory'
+ref table Orders
+ref table DateTableTemplate_c1bb6c2b-fca5-49e6-87a4-48e87367ccff
+ref table LocalDateTable_6dbd3069-f8e4-4032-b4fe-7630c84e5c8d
+
+ref cultureInfo en-US
+
